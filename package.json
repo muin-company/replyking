@@ -1,0 +1,30 @@
+{
+  "name": "replyking",
+  "version": "0.1.0",
+  "description": "24/7 Instagram comment automation with AI",
+  "private": true,
+  "scripts": {
+    "dev": "./scripts/dev.sh",
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "build:backend": "cd backend && npm run build",
+    "build:frontend": "cd frontend && npm run build",
+    "build": "npm run build:backend && npm run build:frontend",
+    "start:backend": "cd backend && npm start",
+    "start:frontend": "cd frontend && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/muin-company/replyking.git"
+  },
+  "keywords": [
+    "instagram",
+    "automation",
+    "ai",
+    "comments",
+    "social-media",
+    "korean"
+  ],
+  "author": "MUIN Company",
+  "license": "MIT",
+  "homepage": "https://github.com/muin-company/replyking#readme"
+}
